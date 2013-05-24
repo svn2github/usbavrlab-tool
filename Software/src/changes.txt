@@ -1,0 +1,43 @@
+5.09
+    - STK500 and AVRISPmkII Firmware revert some small changes from 5.08
+5.08
+    - Changed Special Chars in HTML View
+    - STK500 and AVRISPmkII Firmware some corrections
+5.07
+    - Changed RS458 Pin to Active Low
+5.06
+    - Added OpenOCD Firmware
+5.05
+    - JTAGICEmkII Firmware now can be send to boot mode
+    - several fixes to other Firmwares
+5.04
+    - fixed some small Bugs
+    - added I2C Interface
+5.03
+    - detects AVRISPmkII firmware and can send it to Bootmode
+    - Fixed bug "cannot open File ''" on select Firmware
+5.02
+    - Fixes Windows installer that dont installs parts of the driver on windows xp
+5.01
+    - Fixed a bug in the USB implementation
+5.00
+    - new USB implementation
+    - a lot more Help
+    - fixed I2C Logger Send
+4.05
+    - New STK500+AVRISPmkII Firmware
+4.04
+    - HTML Help corrected
+    - New JTAGICEmkII Firmware
+4.03
+    - Linux Programmertool
+4.02
+    - Brand new Programmertool ;)
+      able to flash avr´s very easy (auto ISP Speed recognision, Auto Controller select)
+      on every OS (Vista64 has some driver Problems)
+4.01
+    - Help and new Firmwares for Linux
+    - USBasp Firmware has get some new Features
+4.00
+    - Version Info Dialog
+    - UART Firmwares corrected

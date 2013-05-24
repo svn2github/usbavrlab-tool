@@ -1,0 +1,299 @@
+object fBootloader: TfBootloader
+  Left = 423
+  Height = 396
+  Top = 173
+  Width = 411
+  ActiveControl = pcMain
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'fBootloader'
+  ClientHeight = 396
+  ClientWidth = 411
+  Color = clWindow
+  OnShow = FormShow
+  LCLVersion = '0.9.29'
+  object pcMain: TPageControl
+    Left = 0
+    Height = 212
+    Top = 0
+    Width = 411
+    ActivePage = tsLoad
+    Align = alTop
+    TabIndex = 0
+    TabOrder = 0
+    object tsLoad: TTabSheet
+      Caption = 'Flash'
+      ClientHeight = 186
+      ClientWidth = 403
+      object lUserFirmware: TLabel
+        Left = 28
+        Height = 14
+        Top = 140
+        Width = 86
+        Anchors = [akLeft, akBottom]
+        Caption = 'Benutzerfirmware'
+        ParentColor = False
+      end
+      object lPageSize: TLabel
+        Left = 8
+        Height = 14
+        Top = 18
+        Width = 63
+        Caption = 'Seitengrösse'
+        ParentColor = False
+      end
+      object lController: TLabel
+        Left = 8
+        Height = 14
+        Top = 2
+        Width = 48
+        Caption = 'Controller'
+        ParentColor = False
+      end
+      object lFirmware: TLabel
+        Left = 28
+        Height = 14
+        Top = 40
+        Width = 50
+        Caption = 'Firmwares'
+        ParentColor = False
+      end
+      object lbPrograms: TListBox
+        Left = 28
+        Height = 76
+        Top = 56
+        Width = 234
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        ItemHeight = 0
+        OnSelectionChange = lbProgramsSelectionChange
+        TabOrder = 0
+      end
+      object ProgressBar1: TProgressBar
+        Left = 271
+        Height = 16
+        Hint = 'Fortschritt'
+        Top = 112
+        Width = 127
+        Anchors = [akTop, akRight]
+        TabOrder = 1
+      end
+      object bProgram: TBitBtn
+        Left = 271
+        Height = 30
+        Hint = 'Programmierung starten'
+        Top = 72
+        Width = 127
+        Anchors = [akTop, akRight]
+        Caption = 'Programmieren'
+        Enabled = False
+        Glyph.Data = {
+          36040000424D3604000000000000360000002800000010000000100000000100
+          2000000000000004000064000000640000000000000000000000030AA900030B
+          A200000084000000790000007A0000007C00100C67002A29410020201F001818
+          18000D0D0D0006060600000000000000005E050505F71D1D1DD0030AA900030B
+          A200000084000000790000007A0000007C00100C67002A29410020201F001818
+          18000D0D0D00060606000000005D000000FB868686FF787878FC030AA900030B
+          A200000084000000790000007A0000007C00100C67002A29410020201F001818
+          18000D0D0D0003030362000000FB7E7E7EFFA7A7A7FD1C1C1C62030AA900030B
+          A200000084000000790000007A0000007C00100C67002A29410020201F001919
+          190008080863000000FB7A7A7AFFA8A8A8FF1111116600000000030AA900030B
+          A200000084000000790000007A0000007C00100C67002A29410020201E001313
+          1362010101FC7B7B7BFFA8A8A8FC111111670000000000000000030AA900030B
+          A20000008300000078000000790300007648100B65132B2A45001919125C0000
+          00FB7B7B7BFFAEAEAEFE13131368000000000000000000000000030AA900030B
+          A10000008C0000007F0000067C710225A0FE1115745A29262A58050501FB7979
+          7BFFB5B5B5FD1C1C1C63000000000000000000000000000000000309A9010107
+          9E0200009000000081060B2D9DEC279BF1FF101C6ADD070601F4757675FFBBBB
+          B9FE2D2D276500000000000000000000000000000000000000000713AEBC1029
+          ADDB00109AA100068AB4208FD8FF3AD6FFFF02135BFF6F605FFFBEB8B3F43836
+          3B5A10100D0008080000000000000000000000000000000000000C23BAEC62C1
+          F1FF72C9EDFF36A1E0FF31E9FEFF31E5FEFF1459B8FF4E5BAEFF232E7EE0070E
+          615F0F0F3C140505320000002F0000002F0000002F0000002F000000AA44243E
+          C1E5A3DAF6FFACFFFFFF5FF8FFFF34F0FFFF35E9FFFF2ECBF3FF1E90E3FF0323
+          A1FF00007D4300008400000084000000840000008400000084000001AB000000
+          A1572F58CDFDCAF8FEFFACFEFFFF5EF9FFFF31E8FBFF1E8BD3FF0A2C9AE60107
+          7C6F0000790B00007A0000007A0000007A0000007A0000007A000000B9010002
+          B7797D9EE4FFFDFFFFFFC8F7FEFFACFFFFFF359EDFFF000388AC000073080000
+          760000007B0000007B0000007B0000007B0000007B0000007B000000C32B304D
+          D6EFC4E4FAFF7798E4FF2F56CCFFA4E2F7FF70CBEFFF020E9B9B000083000000
+          7E000000760000007700000077000000770000007700000077000101CB3C2842
+          DBFF2D48D4EE0000B4730000A1552440C2E760BFF0FF0E27ADDA0106A1020209
+          9C000209920002099400020994000209940002099400020994000000CF060000
+          CC350000BE280000B4000000A7000000A8460A21B9E80611ABB60207A6000208
+          A7000208A8000208A8000208A8000208A8000208A8000208A800
+        }
+        NumGlyphs = 0
+        OnClick = bProgramClick
+        TabOrder = 2
+      end
+      object feOwnFirmware: TFileNameEdit
+        Left = 28
+        Height = 21
+        Top = 158
+        Width = 211
+        OnAcceptFileName = feOwnFirmwareAcceptFileName
+        DialogOptions = []
+        Filter = 'Intel Hex File (*.hex)|*.hex'
+        FilterIndex = 0
+        HideDirectories = False
+        ButtonWidth = 23
+        NumGlyphs = 1
+        Anchors = [akLeft, akRight, akBottom]
+        MaxLength = 0
+        TabOrder = 3
+      end
+      object bStart: TBitBtn
+        Left = 202
+        Height = 32
+        Hint = 'Firmware starten'
+        Top = 2
+        Width = 196
+        Anchors = [akTop, akRight]
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Applikation starten'
+        Glyph.Data = {
+          36040000424D3604000000000000360000002800000010000000100000000100
+          2000000000000004000064000000640000000000000000000000A34312E6A64A
+          1AD5912600629025001093280000922900009229000091290000932D0000952D
+          0000932C0000912B0000932E0000932D0000922C0000952F0000B66431FBF6D8
+          93FFCB884EFFA03C0EC78F2100658F26000B9228000091290000932D0000952D
+          0000932C0000912B0000932E0000932D0000922C0000952F0000B35C26FAFFE0
+          93FFFFE194FFF1C078FFCA7E42FEA03C0CCF8E23005E8D24000C932D0000952D
+          0000932C0000912B0000932E0000932D0000922C0000952F0000B35923FAFFCA
+          7AFFFFC775FFFFCA79FFFFD17DFFF3B668FFC77435FF9F3C0CCB8F26005C932B
+          0016942C0000912B0000932E0000932D0000922C0000952F0000B35721FAFFC0
+          6DFFFFB85FFFFFB65EFFFFB65EFFFFBD64FFFFC168FFF0A853FFC8702CFEA03C
+          09C98D25005D8E280005932D0000942E0000922C0000952F0000B3541FFAFFB4
+          5CFFFFA94AFFFFA74AFFFFA84AFFFFA74AFFFFA94BFFFFB150FFFFB452FFF29E
+          43FFC56821FC9E3807CB90280059902A000F922C000096300000B3521BFAFFAA
+          4DFFFF9C36FFFF9C38FFFF9C38FFFF9C38FFFF9B38FFFF9B38FFFF9C38FFFFA1
+          3BFFFFA53EFFEF9131FFC76318FF9F3A05C68D27005A952F0007B3521AFAFFA8
+          4CFFFF9931FFFF9733FFFF9833FFFF9833FFFF9833FFFF9833FFFF9933FFFF98
+          32FFFF9832FFFF9D33FFFFA134FFF49531FFC9661BFF9B3502C6B3531CFAFFAB
+          51FFFF9931FFFF9732FFFF9833FFFF9833FFFF9833FFFF9833FFFF9933FFFF97
+          31FFFF972FFFFFA038FFFFA744FFEF943AFFC56019F99A3402BEB3541FFAFFB4
+          62FFFFA03EFFFF9E3EFFFF9F3FFFFF9F40FFFF9F3FFFFF9F3EFFFF9D3DFFFFA7
+          46FFFFB258FFEB9A4CFFC16425FE9B3506B78B25004C952F0005B35727FAFFC6
+          84FFFFB261FFFFAF5FFFFFB060FFFFAE5DFFFFAF60FFFFBB6DFFFFC27BFFEEAB
+          6BFFC16A34F99B370BC08F27004B8F28000B902B000096300000B35B2EFAFFD5
+          A3FFFFC383FFFFBD7EFFFFBE7EFFFFCB8EFFFFD39DFFEDB785FFC37445FC9C38
+          0BBD8D2200508E260002942E0000922B0000902A000096300000B35E34FAFFE3
+          C1FFFFD4A6FFFFDCB1FFFFE7C2FFEEC7A2FFC1774FFF9C3910BD9024004E9227
+          000E92290000912A0000942E0000922B0000902A000096300000B3613BFAFFFD
+          EEFFFFFBEAFFEDD2BAFFC38261FD9C380FC48E22004D8E230005952E00009329
+          000092290000912A0000942E0000922B0000902A000096300000B56947FBF1E3
+          D7FFC58B71FF9C3710BC8E1D0058922700039229000092290000952E00009329
+          000092290000912A0000942E0000922B0000902A000096300000A24418E1A347
+          21CB8E1C00529123000892250000942A00009229000092280000952E00009329
+          000092290000912A0000942E0000922B0000902A000096300000
+        }
+        NumGlyphs = 0
+        OnClick = bStartClick
+        TabOrder = 4
+      end
+    end
+    object tsOptions: TTabSheet
+      Caption = 'Optionen'
+      ClientHeight = 186
+      ClientWidth = 403
+      TabVisible = False
+      object lISPSpeed: TLabel
+        Left = 12
+        Height = 16
+        Top = 10
+        Width = 107
+        Caption = 'ISP Geschwindigkeit'
+        ParentColor = False
+      end
+      object lSTK500SoftwareVersion: TLabel
+        Left = 12
+        Height = 16
+        Top = 66
+        Width = 136
+        Caption = 'STK 500 Firmware Version'
+        ParentColor = False
+      end
+      object cbISPSpeed: TComboBox
+        Left = 12
+        Height = 21
+        Top = 26
+        Width = 214
+        Anchors = [akTop, akLeft, akRight]
+        ItemHeight = 13
+        Items.Strings = (
+          '1 khz'
+          '93,75 khz'
+          '187,5 khz'
+          '375 khz'
+          '750 khz'
+          '1,5 Mhz'
+          '3 Mhz'
+        )
+        MaxLength = 65535
+        TabOrder = 0
+      end
+      object eSoftwareVersion: TEdit
+        Left = 12
+        Height = 23
+        Top = 82
+        Width = 214
+        Anchors = [akTop, akLeft, akRight]
+        TabOrder = 1
+        Text = '2.0a'
+      end
+      object rgProtocol: TRadioGroup
+        Left = 12
+        Height = 98
+        Top = 122
+        Width = 214
+        Anchors = [akTop, akLeft, akRight]
+        AutoFill = True
+        Caption = 'Protokoll'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        ClientHeight = 80
+        ClientWidth = 210
+        Items.Strings = (
+          'STK500'
+          'AVR910'
+        )
+        TabOrder = 2
+      end
+      object bWriteSTK500Params: TButton
+        Left = 258
+        Height = 34
+        Top = 138
+        Width = 139
+        Anchors = [akRight, akBottom]
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Speichern'
+        OnClick = bWriteSTK500ParamsClick
+        TabOrder = 3
+      end
+    end
+  end
+  object pClient: TPanel
+    Left = 0
+    Height = 179
+    Top = 217
+    Width = 411
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 1
+  end
+  object Splitter1: TSplitter
+    Cursor = crVSplit
+    Left = 0
+    Height = 5
+    Top = 212
+    Width = 411
+    Align = alTop
+    ResizeAnchor = akTop
+  end
+end

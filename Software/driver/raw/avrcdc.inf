@@ -1,0 +1,73 @@
+
+;
+; Windows USB CDC Driver Setup File for AVR-CDC (XP/2000)
+;
+;	(c) Copyright 2009 Recursion Co., Ltd.
+;
+
+[Version] 
+Signature	= "$Windows NT$"
+Provider	= %COMPANY%
+DriverVer	= 06/28/2008,1.0.0.1
+LayoutFile	= layout.inf
+
+Class		= Ports
+ClassGuid	= {4D36E978-E325-11CE-BFC1-08002BE10318}
+
+[Manufacturer] 
+%MFGNAME%	= Devices
+
+;--------------------------------------------------------------------------
+; Files
+;--------------------------------------------------------------------------
+
+[DestinationDirs]
+DefaultDestDir	= 12
+
+;--------------------------------------------------------------------------
+; Devices
+;--------------------------------------------------------------------------
+
+[Devices] 
+%DESCRIPTION% = DriverInstall, USB\VID_16C0&PID_05E1
+
+;--------------------------------------------------------------------------
+; Device driver
+;--------------------------------------------------------------------------
+
+[DriverInstall.nt]
+CopyFiles	= DriverInstall.nt.CopyFiles
+AddReg		= DriverInstall.nt.AddReg 
+
+[DriverInstall.nt.CopyFiles]
+usbser.sys,,,0x20
+
+[DriverInstall.nt.AddReg] 
+HKR,,DevLoader,,*ntkern 
+HKR,,NTMPDriver,,usbser.sys 
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider" 
+
+[DriverInstall.nt.Services] 
+AddService	= usbser, 0x00000002, DriverService
+
+;--------------------------------------------------------------------------
+; Services
+;--------------------------------------------------------------------------
+
+[DriverService] 
+DisplayName	= %SERVICE%
+ServiceType	= 1
+StartType	= 3
+ErrorControl	= 1
+ServiceBinary	= %12%\usbser.sys 
+
+;--------------------------------------------------------------------------
+; Strings
+;--------------------------------------------------------------------------
+
+[Strings] 
+COMPANY	= "www.ullihome.de"
+MFGNAME	= "www.ullihome.de"
+DESCRIPTION	= "Virtual Communications Port"
+SERVICE	= "USB RS-232 Emulation Driver"
+

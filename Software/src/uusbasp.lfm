@@ -1,0 +1,161 @@
+object fUSBAsp: TfUSBAsp
+  Left = 423
+  Height = 417
+  Top = 246
+  Width = 520
+  HorzScrollBar.Page = 530
+  HorzScrollBar.Range = 516
+  VertScrollBar.Page = 416
+  VertScrollBar.Range = 127
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'fUSBAsp'
+  ClientHeight = 417
+  ClientWidth = 520
+  Color = clWindow
+  OnHide = FormHide
+  OnShow = FormShow
+  LCLVersion = '0.9.29'
+  object Panel1: TPanel
+    Left = 0
+    Height = 417
+    Top = 0
+    Width = 520
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 417
+    ClientWidth = 520
+    TabOrder = 0
+    object lISPSpeed1: TLabel
+      Left = 4
+      Height = 16
+      Top = 10
+      Width = 107
+      Caption = 'ISP Geschwindigkeit'
+      ParentColor = False
+    end
+    object lDebugPort: TLabel
+      Left = 8
+      Height = 16
+      Top = 60
+      Width = 61
+      Caption = 'Debug Port'
+      ParentColor = False
+    end
+    object Bevel2: TBevel
+      Left = 8
+      Height = 18
+      Top = 68
+      Width = 504
+      Anchors = [akTop, akLeft, akRight]
+      Shape = bsBottomLine
+    end
+    object lBaudRate: TLabel
+      Left = 8
+      Height = 16
+      Top = 90
+      Width = 48
+      Caption = 'Baudrate'
+      ParentColor = False
+    end
+    object lParity: TLabel
+      Left = 176
+      Height = 16
+      Top = 90
+      Width = 31
+      Caption = 'Parity'
+      ParentColor = False
+    end
+    object lDatabits: TLabel
+      Left = 120
+      Height = 16
+      Top = 90
+      Width = 54
+      Caption = 'Daten Bits'
+      ParentColor = False
+    end
+    object lStopbits: TLabel
+      Left = 232
+      Height = 16
+      Top = 90
+      Width = 47
+      Caption = 'Stop Bits'
+      ParentColor = False
+    end
+    object cbISPSpeed: TComboBox
+      Left = 4
+      Height = 23
+      Top = 26
+      Width = 508
+      Anchors = [akTop, akLeft, akRight]
+      ItemHeight = 15
+      Items.Strings = (
+        '1 khz'
+        '93,75 khz'
+        '187,5 khz'
+        '375 khz'
+        '750 khz'
+        '1,5 Mhz'
+        '3 Mhz'
+      )
+      MaxLength = 65535
+      OnSelect = cbISPSpeedSelect
+      TabOrder = 0
+    end
+    object cbBaudrate: TComboBox
+      Left = 8
+      Height = 23
+      Top = 106
+      Width = 100
+      ItemHeight = 15
+      OnChange = cbBaudrateChange
+      TabOrder = 1
+      Text = '9600'
+    end
+    object cbParity: TComboBox
+      Left = 176
+      Height = 23
+      Top = 106
+      Width = 48
+      ItemHeight = 15
+      Items.Strings = (
+        'N'
+        'O'
+        'E'
+      )
+      TabOrder = 2
+      Text = 'N'
+    end
+    object seDatabits: TSpinEdit
+      Left = 120
+      Height = 23
+      Top = 106
+      Width = 50
+      TabOrder = 3
+      Value = 8
+    end
+    object seStopbits: TSpinEdit
+      Left = 232
+      Height = 23
+      Top = 106
+      Width = 50
+      TabOrder = 4
+      Value = 1
+    end
+    object mSerial: TMemo
+      Left = 8
+      Height = 272
+      Top = 136
+      Width = 504
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      TabOrder = 5
+    end
+  end
+  object tmrUSBASP: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = tmrUSBASPTimer
+    left = 64
+    top = 180
+  end
+end

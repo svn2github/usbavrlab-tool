@@ -1,0 +1,384 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sergej Pereguda <pereguda_s@yahoo.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: TFBITBANGING.CAPTION
+msgid "fBitbanging"
+msgstr "Bitbanging"
+
+#: TFBITBANGING.CBBIT0.CAPTION
+msgid "Bit 0"
+msgstr "Bit 0"
+
+#: TFBITBANGING.CBBIT1.CAPTION
+msgid "Bit 1"
+msgstr "Bit 1"
+
+#: TFBITBANGING.CBBIT2.CAPTION
+msgid "Bit 2"
+msgstr "Bit 2"
+
+#: TFBITBANGING.CBBIT3.CAPTION
+msgid "Bit 3"
+msgstr "Bit 3"
+
+#: TFBITBANGING.CBBIT4.CAPTION
+msgid "Bit 4"
+msgstr "Bit 4"
+
+#: TFBITBANGING.CBBIT5.CAPTION
+msgid "Bit 5"
+msgstr "Bit 5"
+
+#: TFBITBANGING.CBBIT6.CAPTION
+msgid "Bit 6"
+msgstr "Bit 6"
+
+#: TFBOOTLOADER.BPROGRAM.CAPTION
+msgid "Programmieren"
+msgstr "Программировать"
+
+#: TFBOOTLOADER.BPROGRAM.HINT
+msgid "Programmierung starten"
+msgstr "Запустить программирование"
+
+#: TFBOOTLOADER.BSTART.CAPTION
+msgid "Applikation starten"
+msgstr "Запустить приложение"
+
+#: TFBOOTLOADER.BSTART.HINT
+msgid "Firmware starten"
+msgstr "Запустить прошивку"
+
+#: TFBOOTLOADER.BWRITESTK500PARAMS.CAPTION
+msgid "Speichern"
+msgstr "Сохранить"
+
+#: TFBOOTLOADER.CAPTION
+msgid "fBootloader"
+msgstr "Загрузчик"
+
+#: TFBOOTLOADER.ESOFTWAREVERSION.TEXT
+msgid "2.0a"
+msgstr "2.0a"
+
+#: TFBOOTLOADER.LCONTROLLER.CAPTION
+msgctxt "TFBOOTLOADER.LCONTROLLER.CAPTION"
+msgid "Controller"
+msgstr "Контроллер"
+
+#: TFBOOTLOADER.LFIRMWARE.CAPTION
+msgid "Firmwares"
+msgstr "Прошивки"
+
+#: TFBOOTLOADER.LISPSPEED.CAPTION
+msgctxt "TFBOOTLOADER.LISPSPEED.CAPTION"
+msgid "ISP Geschwindigkeit"
+msgstr "Скорость ISP"
+
+#: TFBOOTLOADER.LPAGESIZE.CAPTION
+msgid "Seitengrösse"
+msgstr "Размер страницы"
+
+#: TFBOOTLOADER.LSTK500SOFTWAREVERSION.CAPTION
+msgid "STK 500 Firmware Version"
+msgstr "STK500 Версия"
+
+#: TFBOOTLOADER.LUSERFIRMWARE.CAPTION
+msgid "Benutzerfirmware"
+msgstr "Пользовательская прошивка"
+
+#: TFBOOTLOADER.PROGRESSBAR1.HINT
+msgid "Fortschritt"
+msgstr "Прогресс"
+
+#: TFBOOTLOADER.RGPROTOCOL.CAPTION
+msgid "Protokoll"
+msgstr "Протокол"
+
+#: TFBOOTLOADER.TSLOAD.CAPTION
+msgid "Flash"
+msgstr "Флэш"
+
+#: TFBOOTLOADER.TSOPTIONS.CAPTION
+msgid "Optionen"
+msgstr "Опции"
+
+#: TFBRINGDEVICETOBOOTMODE.BABORT.CAPTION
+msgid "Abbrechen"
+msgstr "Отменить"
+
+#: TFBRINGDEVICETOBOOTMODE.BOK.CAPTION
+msgid "OK"
+msgstr "OK"
+
+#: TFBRINGDEVICETOBOOTMODE.BREFRESHLIST.HINT
+msgid "Liste mit Com Ports aktualisieren"
+msgstr ""
+
+#: TFBRINGDEVICETOBOOTMODE.CAPTION
+msgid "Boot Modus Com Port Auswahl"
+msgstr "Перевести устройство в режим загрузки"
+
+#: TFI2CLOGGER.BI2CSEND.CAPTION
+msgid "Senden"
+msgstr "I2C отправить"
+
+#: TFI2CLOGGER.CAPTION
+msgid "fI2CLogger"
+msgstr "I2C логгер"
+
+#: TFMAIN.ACINFO.CAPTION
+msgid "Info"
+msgstr ""
+
+#: TFMAIN.CAPTION
+msgid "USB AVR Lab Tool"
+msgstr "AVR-USB Lab Tool"
+
+#: TFMAIN.LINFOLISTCLEAR.CAPTION
+msgid "Wenn die Liste leer ist, ist es möglich das ihr USB AVR Lab mit einer Firmware arbeitet die auf einem Virtuellen Com Port basiert. In diesem fall drücken Sie einfach auf den Stern Button und geben im erscheinenden Fenster dienummer den Namen des Com ports an."
+msgstr ""
+
+#: TFMAIN.MILANGUAGE.CAPTION
+msgid "Sprache"
+msgstr "Язык"
+
+#: TFMAIN.SPEEDBUTTON2.HINT
+msgid "in Bootmodus holen"
+msgstr "Перевести устройство в режим загрузки"
+
+#: TFTOOLHELP.CAPTION
+msgid "fToolHelp"
+msgstr "Помощь"
+
+#: TFUSBASP.CAPTION
+msgid "fUSBAsp"
+msgstr ""
+
+#: TFUSBASP.CBBAUDRATE.TEXT
+msgid "9600"
+msgstr "9600"
+
+#: TFUSBASP.CBPARITY.TEXT
+msgid "N"
+msgstr "N"
+
+#: TFUSBASP.LBAUDRATE.CAPTION
+msgctxt "TFUSBASP.LBAUDRATE.CAPTION"
+msgid "Baudrate"
+msgstr "Битрейт"
+
+#: TFUSBASP.LDATABITS.CAPTION
+msgid "Daten Bits"
+msgstr "Биты данных"
+
+#: TFUSBASP.LDEBUGPORT.CAPTION
+msgctxt "TFUSBASP.LDEBUGPORT.CAPTION"
+msgid "Debug Port"
+msgstr "Порт отладки"
+
+#: TFUSBASP.LISPSPEED1.CAPTION
+msgctxt "TFUSBASP.LISPSPEED1.CAPTION"
+msgid "ISP Geschwindigkeit"
+msgstr "ISP Скорость"
+
+#: TFUSBASP.LPARITY.CAPTION
+msgctxt "TFUSBASP.LPARITY.CAPTION"
+msgid "Parity"
+msgstr "Четность"
+
+#: TFUSBASP.LSTOPBITS.CAPTION
+msgid "Stop Bits"
+msgstr "Стопбиты"
+
+#: uintfstrconsts.stravrisptool
+msgid "USB AVR-ISP Tool"
+msgstr "AVR USB Lab Tool"
+
+#: uintfstrconsts.strbaudrate
+msgctxt "uintfstrconsts.strbaudrate"
+msgid "Baudrate"
+msgstr "Битрейт"
+
+#: uintfstrconsts.strbringtobootmode
+msgid "Bring to boot mode"
+msgstr "Перевести устройство в режим загрузки"
+
+#: uintfstrconsts.strbringtobootmodehint
+#, fuzzy
+#| msgid ""
+#| "Bring selected programmer to bootmode\n"
+#| "Markierten Programmer in den Bootmode versetzen\n"
+msgid ""
+"Bring selected programmer to bootmode\n"
+"Markierten Programmer in den Bootmode versetzen\n"
+msgstr "Перевести выбраный программатор в режим загрузки"
+
+#: uintfstrconsts.strcontroller
+msgctxt "uintfstrconsts.strcontroller"
+msgid "Controller"
+msgstr "Контроллер"
+
+#: uintfstrconsts.strdatabits
+msgid "Databits"
+msgstr "Биты данных"
+
+#: uintfstrconsts.strdebugport
+msgctxt "uintfstrconsts.strdebugport"
+msgid "Debug Port"
+msgstr "Порт отладки"
+
+#: uintfstrconsts.strdebugportmodeupdated
+msgid "Debug Port Mode updated ..."
+msgstr "Режим порта отладки обновлен..."
+
+#: uintfstrconsts.strerrorconnectingtodevice
+msgid "Error connecting to Device"
+msgstr "Ошибка при соединении с устройством"
+
+#: uintfstrconsts.strfirmware
+msgid "Firmware"
+msgstr "Прошивка"
+
+#: uintfstrconsts.strfirmwareloadedok
+msgid "Firmware loaded, %d Bytes"
+msgstr "Прошивка завершена, %d байт"
+
+#: uintfstrconsts.strhexfiletobig
+msgid "Hex file does not fit in Controller"
+msgstr "Hex file не соответствует контроллеру"
+
+#: uintfstrconsts.stri2csendcomplete
+msgid "I2C data sended ..."
+msgstr "I2C данные отправлены ..."
+
+#: uintfstrconsts.stri2csendfailed
+msgid "I2C send failed (%d) ..."
+msgstr "I2C отправка не удалась ..."
+
+#: uintfstrconsts.strinfo
+msgid ""
+"www:  http://www.ullihome.de\n"
+"mail: christian@ullihome.de\n"
+"\n"
+"Lizenz:\n"
+"Die Software und ihre Dokumentation wird wie sie ist zur\n"
+"Verfuegung gestellt. Da Fehlfunktionen auch bei ausfuehrlich\n"
+"getesteter Software durch die Vielzahl an verschiedenen\n"
+"Rechnerkonfigurationen niemals ausgeschlossen werden koennen,\n"
+"uebernimmt der Autor keinerlei Haftung fuer jedwede Folgeschaeden,\n"
+"die sich durch direkten oder indirekten Einsatz der Software\n"
+"oder der Dokumentation ergeben. Uneingeschraenkt ausgeschlossen\n"
+"ist vor allem die Haftung fuer Schaeden aus entgangenem Gewinn,\n"
+"Betriebsunterbrechung, Verlust von Informationen und Daten und\n"
+"Schaeden an anderer Software, auch wenn diese dem Autor bekannt\n"
+"sein sollten. Ausschliesslich der Benutzer haftet fuer Folgen der\n"
+"Benutzung dieser Software.\n"
+"\n"
+"erstellt mit Freepascal + Lazarus\n"
+"http://www.freepascal.org, http://lazarus.freepascal.org\n"
+"Iconset von:\n"
+"http://www.famfamfam.com/lab/icons/silk/\n"
+msgstr ""
+
+#: uintfstrconsts.strinvalidhexfile
+msgid "Invalid hexfile, check if this is in Intel hex Format"
+msgstr "Неверный hexfile, проверьте, представлен ли файл форматом Intel hex."
+
+#: uintfstrconsts.strinvalidsoftwareversion
+msgid "Invalid Software Version"
+msgstr "Неверная версия п.о."
+
+#: uintfstrconsts.strispspeed
+msgid "ISP Speed"
+msgstr "ISP Скорость"
+
+#: uintfstrconsts.strispspeedupdated
+msgid "ISP Speed updated ..."
+msgstr ""
+
+#: uintfstrconsts.strnoaccess
+msgid "An USB AVR Lab was found but you havend access to it. Maybe you havend enougth rights."
+msgstr ""
+
+#: uintfstrconsts.strnohelp
+msgid "No Help avalible"
+msgstr ""
+
+#: uintfstrconsts.stroptions
+msgid "Options"
+msgstr "Опции"
+
+#: uintfstrconsts.stroptionsupdated
+msgid "Options updated..."
+msgstr "Настройки сохранены..."
+
+#: uintfstrconsts.strpagesize
+msgid "Page Size"
+msgstr "Размер страницы"
+
+#: uintfstrconsts.strparity
+msgctxt "uintfstrconsts.strparity"
+msgid "Parity"
+msgstr "Четность"
+
+#: uintfstrconsts.strpleaseusespecialsoftware
+msgid "Please use the Special Software for this Programmer Type"
+msgstr ""
+"Пожалуйста используйте специальное п.о. для этого типа программатора\n"
+"или нет необходимости в софте.\n"
+
+#: uintfstrconsts.strprogramm
+msgid "Programm"
+msgstr "Программировать"
+
+#: uintfstrconsts.strprogrammedok
+msgid "Device programmed OK ..."
+msgstr "Прошивка завершена."
+
+#: uintfstrconsts.strprogrammingpage
+msgid "Programming Page %d"
+msgstr "Программируемая страница %d"
+
+#: uintfstrconsts.strprotocol
+msgid "Protocol"
+msgstr "Протокол"
+
+#: uintfstrconsts.strrefreshhint
+#, fuzzy
+#| msgid ""
+#| "Refresh list\n"
+#| "Liste aktualisierten\n"
+msgid ""
+"Refresh list\n"
+"Liste aktualisierten\n"
+msgstr "Обновить список"
+
+#: uintfstrconsts.strsend
+msgid "Send"
+msgstr "Отправить"
+
+#: uintfstrconsts.strsoftwareversion
+msgid "Software Version"
+msgstr "Версия п.о."
+
+#: uintfstrconsts.strstartapplication
+msgid "Start Application"
+msgstr "Запустить приложение"
+
+#: uintfstrconsts.strstopbits
+msgid "Stopbits"
+msgstr "Стопбиты"
+
+#: uintfstrconsts.strwrite
+msgid "Write"
+msgstr "Запись"
+

@@ -1,0 +1,442 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <Title Value="usbavrlabtool"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N Value="True"/>
+      <OutDir Value="..\languages"/>
+    </i18n>
+    <VersionInfo>
+      <AutoIncrementBuild Value="True"/>
+      <MajorVersionNr Value="4"/>
+      <MinorVersionNr Value="1"/>
+      <BuildNr Value="526"/>
+      <StringTable FileDescription="USB AVR Lab Tool" LegalCopyright="2008 C.Ulrich" ProductVersion="3.10.0.237"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="\usr\bin\sudo $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="laz_synapse"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="TurboPowerIPro"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="general"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="24">
+      <Unit0>
+        <Filename Value="usbavrlabtool.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="usbavrlabtool"/>
+        <EditorIndex Value="4"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="17" Y="12"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="umain"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="105"/>
+        <CursorPos X="36" Y="136"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="uintfstrconsts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uIntfStrConsts"/>
+        <UsageCount Value="27"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ui2clogger.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fI2CLogger"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uI2CLogger"/>
+        <UsageCount Value="27"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uusbasp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fUSBAsp"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uUSBasp"/>
+        <UsageCount Value="27"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="ubitbanging.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fBitbanging"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uBitbanging"/>
+        <EditorIndex Value="11"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="85"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="ubootloader.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fBootloader"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uBootloader"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="215"/>
+        <CursorPos X="1" Y="235"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="libusb.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="libusb"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="4"/>
+        <UsageCount Value="27"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="utoolhelp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fToolHelp"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uToolHelp"/>
+        <EditorIndex Value="7"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="11" Y="116"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="ulibusbdevice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uLibUSBDevice"/>
+        <EditorIndex Value="6"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="10"/>
+        <CursorPos X="20" Y="20"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="uusbserialdevice.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uUSBSerialDevice"/>
+        <UsageCount Value="27"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="uusblibusbimplementation.inc"/>
+        <EditorIndex Value="10"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="76"/>
+        <CursorPos X="44" Y="69"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="uusb.pas"/>
+        <UnitName Value="uUsb"/>
+        <EditorIndex Value="12"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="84"/>
+        <CursorPos X="1" Y="96"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\DOCUMENTSM16665x19397_Software_27598\Software\src\changes.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="19" Y="4"/>
+        <UsageCount Value="12"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="revision.inc"/>
+        <EditorIndex Value="8"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="2" Y="1"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="changes.txt"/>
+        <EditorIndex Value="9"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="34" Y="2"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="uusbwinimplementation.inc"/>
+        <EditorIndex Value="5"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="307"/>
+        <CursorPos X="1" Y="320"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="libusb_win.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="libusb_unix.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="275"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="version.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="2" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="uusbhiddevice.pas"/>
+        <UnitName Value="uUSBHIDDevice"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="13" Y="12"/>
+        <UsageCount Value="21"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\..\..\lazarus\lcl\include\customlistbox.inc"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="545"/>
+        <CursorPos X="1" Y="572"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\..\..\lazarus\lcl\interfaces\gtk2\gtk2int.pas"/>
+        <UnitName Value="Gtk2Int"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="639"/>
+        <CursorPos X="1" Y="668"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="uencrypt.pas"/>
+        <UnitName Value="uEncrypt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="76"/>
+        <CursorPos X="10" Y="70"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="usbavrlabtool.lpr"/>
+        <Caret Line="26" Column="1" TopLine="1"/>
+      </Position1>
+      <Position2>
+        <Filename Value="umain.pas"/>
+        <Caret Line="136" Column="36" TopLine="123"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="233" Column="1" TopLine="215"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\..\..\lazarus\lcl\include\customlistbox.inc"/>
+        <Caret Line="563" Column="1" TopLine="545"/>
+      </Position4>
+      <Position5>
+        <Filename Value="..\..\..\..\lazarus\lcl\include\customlistbox.inc"/>
+        <Caret Line="565" Column="1" TopLine="545"/>
+      </Position5>
+      <Position6>
+        <Filename Value="..\..\..\..\lazarus\lcl\include\customlistbox.inc"/>
+        <Caret Line="566" Column="1" TopLine="545"/>
+      </Position6>
+      <Position7>
+        <Filename Value="..\..\..\..\lazarus\lcl\include\customlistbox.inc"/>
+        <Caret Line="568" Column="1" TopLine="545"/>
+      </Position7>
+      <Position8>
+        <Filename Value="..\..\..\..\lazarus\lcl\include\customlistbox.inc"/>
+        <Caret Line="572" Column="1" TopLine="545"/>
+      </Position8>
+      <Position9>
+        <Filename Value="..\..\..\..\lazarus\lcl\interfaces\gtk2\gtk2int.pas"/>
+        <Caret Line="653" Column="1" TopLine="635"/>
+      </Position9>
+      <Position10>
+        <Filename Value="..\..\..\..\lazarus\lcl\interfaces\gtk2\gtk2int.pas"/>
+        <Caret Line="659" Column="1" TopLine="635"/>
+      </Position10>
+      <Position11>
+        <Filename Value="..\..\..\..\lazarus\lcl\interfaces\gtk2\gtk2int.pas"/>
+        <Caret Line="660" Column="1" TopLine="635"/>
+      </Position11>
+      <Position12>
+        <Filename Value="..\..\..\..\lazarus\lcl\interfaces\gtk2\gtk2int.pas"/>
+        <Caret Line="662" Column="1" TopLine="635"/>
+      </Position12>
+      <Position13>
+        <Filename Value="..\..\..\..\lazarus\lcl\interfaces\gtk2\gtk2int.pas"/>
+        <Caret Line="663" Column="1" TopLine="635"/>
+      </Position13>
+      <Position14>
+        <Filename Value="..\..\..\..\lazarus\lcl\interfaces\gtk2\gtk2int.pas"/>
+        <Caret Line="664" Column="1" TopLine="635"/>
+      </Position14>
+      <Position15>
+        <Filename Value="..\..\..\..\lazarus\lcl\interfaces\gtk2\gtk2int.pas"/>
+        <Caret Line="666" Column="1" TopLine="637"/>
+      </Position15>
+      <Position16>
+        <Filename Value="..\..\..\..\lazarus\lcl\interfaces\gtk2\gtk2int.pas"/>
+        <Caret Line="667" Column="1" TopLine="638"/>
+      </Position16>
+      <Position17>
+        <Filename Value="..\..\..\..\lazarus\lcl\interfaces\gtk2\gtk2int.pas"/>
+        <Caret Line="668" Column="1" TopLine="639"/>
+      </Position17>
+      <Position18>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="394" Column="1" TopLine="376"/>
+      </Position18>
+      <Position19>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="395" Column="1" TopLine="376"/>
+      </Position19>
+      <Position20>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="396" Column="1" TopLine="376"/>
+      </Position20>
+      <Position21>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="397" Column="1" TopLine="376"/>
+      </Position21>
+      <Position22>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="399" Column="1" TopLine="376"/>
+      </Position22>
+      <Position23>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="400" Column="1" TopLine="376"/>
+      </Position23>
+      <Position24>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="401" Column="1" TopLine="376"/>
+      </Position24>
+      <Position25>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="402" Column="1" TopLine="376"/>
+      </Position25>
+      <Position26>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="404" Column="1" TopLine="376"/>
+      </Position26>
+      <Position27>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="405" Column="1" TopLine="376"/>
+      </Position27>
+      <Position28>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="408" Column="21" TopLine="385"/>
+      </Position28>
+      <Position29>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="224" Column="84" TopLine="215"/>
+      </Position29>
+      <Position30>
+        <Filename Value="ubootloader.pas"/>
+        <Caret Line="234" Column="1" TopLine="215"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <UnitOutputDirectory Value="..\output\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <CStyleOperator Value="False"/>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <LinkSmart Value="True"/>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <UseMsgFile Value="True"/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="1">
+      <Item1>
+        <Name Value="EFOpenError"/>
+      </Item1>
+    </Exceptions>
+  </Debugging>
+  <EditorMacros Count="0"/>
+</CONFIG>

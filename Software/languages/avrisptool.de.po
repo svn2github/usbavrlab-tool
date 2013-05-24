@@ -1,0 +1,404 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Christian Ulrich <info@cu-tec.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: TFBITBANGING.CAPTION
+msgid "fBitbanging"
+msgstr "Bitbanging"
+
+#: TFBITBANGING.CBBIT0.CAPTION
+msgid "Bit 0"
+msgstr "Bit 0"
+
+#: TFBITBANGING.CBBIT1.CAPTION
+msgid "Bit 1"
+msgstr "Bit 1"
+
+#: TFBITBANGING.CBBIT2.CAPTION
+msgid "Bit 2"
+msgstr "Bit 2"
+
+#: TFBITBANGING.CBBIT3.CAPTION
+msgid "Bit 3"
+msgstr "Bit 3"
+
+#: TFBITBANGING.CBBIT4.CAPTION
+msgid "Bit 4"
+msgstr "Bit 4"
+
+#: TFBITBANGING.CBBIT5.CAPTION
+msgid "Bit 5"
+msgstr "Bit 5"
+
+#: TFBITBANGING.CBBIT6.CAPTION
+msgid "Bit 6"
+msgstr "Bit 6"
+
+#: TFBOOTLOADER.BPROGRAM.CAPTION
+msgid "Programmieren"
+msgstr "Programmieren"
+
+#: TFBOOTLOADER.BPROGRAM.HINT
+msgid "Programmierung starten"
+msgstr "Programmierung starten"
+
+#: TFBOOTLOADER.BSTART.CAPTION
+msgid "Applikation starten"
+msgstr "Start"
+
+#: TFBOOTLOADER.BSTART.HINT
+msgid "Firmware starten"
+msgstr "Firmware starten"
+
+#: TFBOOTLOADER.BWRITESTK500PARAMS.CAPTION
+msgid "Speichern"
+msgstr "Speichern"
+
+#: TFBOOTLOADER.CAPTION
+msgid "fBootloader"
+msgstr "Bootloader"
+
+#: TFBOOTLOADER.ESOFTWAREVERSION.TEXT
+msgid "2.0a"
+msgstr "2.0a"
+
+#: TFBOOTLOADER.LCONTROLLER.CAPTION
+msgctxt "TFBOOTLOADER.LCONTROLLER.CAPTION"
+msgid "Controller"
+msgstr "Controller"
+
+#: TFBOOTLOADER.LFIRMWARE.CAPTION
+msgid "Firmwares"
+msgstr "Firmware"
+
+#: TFBOOTLOADER.LISPSPEED.CAPTION
+msgctxt "TFBOOTLOADER.LISPSPEED.CAPTION"
+msgid "ISP Geschwindigkeit"
+msgstr "ISP Geschwindigkeit"
+
+#: TFBOOTLOADER.LPAGESIZE.CAPTION
+msgid "Seitengrösse"
+msgstr "Seitengrösse"
+
+#: TFBOOTLOADER.LSTK500SOFTWAREVERSION.CAPTION
+msgid "STK 500 Firmware Version"
+msgstr "STK500 Software Version"
+
+#: TFBOOTLOADER.LUSERFIRMWARE.CAPTION
+msgid "Benutzerfirmware"
+msgstr "Benutzerfirmware"
+
+#: TFBOOTLOADER.PROGRESSBAR1.HINT
+msgid "Fortschritt"
+msgstr "Fortschritt"
+
+#: TFBOOTLOADER.RGPROTOCOL.CAPTION
+msgid "Protokoll"
+msgstr "Protokoll"
+
+#: TFBOOTLOADER.TSLOAD.CAPTION
+msgid "Flash"
+msgstr "Flash"
+
+#: TFBOOTLOADER.TSOPTIONS.CAPTION
+msgid "Optionen"
+msgstr "Optionen"
+
+#: TFI2CLOGGER.BI2CSEND.CAPTION
+msgid "Senden"
+msgstr "Senden"
+
+#: TFI2CLOGGER.CAPTION
+msgid "fI2CLogger"
+msgstr ""
+
+#: TFMAIN.ACINFO.CAPTION
+msgid "Info"
+msgstr "Info"
+
+#: TFMAIN.BSENDTOBOOTMODE.CAPTION
+msgid "In Bootmodus versetzen"
+msgstr "In Bootmodus versetzen"
+
+#: TFMAIN.CAPTION
+msgid "USB AVR Lab Tool"
+msgstr "AVR-USB Lab Tool"
+
+#: TFMAIN.LMESSAGE.CAPTION
+msgid "lMessage"
+msgstr ""
+
+#: TFMAIN.MILANGUAGE.CAPTION
+msgid "Sprache"
+msgstr "Sprache"
+
+#: TFUSBASP.CAPTION
+msgid "fUSBAsp"
+msgstr ""
+
+#: TFUSBASP.CBBAUDRATE.TEXT
+msgid "9600"
+msgstr "9600"
+
+#: TFUSBASP.CBPARITY.TEXT
+msgid "N"
+msgstr "N"
+
+#: TFUSBASP.LBAUDRATE.CAPTION
+msgctxt "TFUSBASP.LBAUDRATE.CAPTION"
+msgid "Baudrate"
+msgstr "Baudrate"
+
+#: TFUSBASP.LDATABITS.CAPTION
+msgid "Daten Bits"
+msgstr "Datenbits"
+
+#: TFUSBASP.LDEBUGPORT.CAPTION
+msgctxt "TFUSBASP.LDEBUGPORT.CAPTION"
+msgid "Debug Port"
+msgstr "Debugport"
+
+#: TFUSBASP.LISPSPEED1.CAPTION
+msgctxt "TFUSBASP.LISPSPEED1.CAPTION"
+msgid "ISP Geschwindigkeit"
+msgstr "ISP Geschwindigkeit"
+
+#: TFUSBASP.LPARITY.CAPTION
+msgctxt "TFUSBASP.LPARITY.CAPTION"
+msgid "Parity"
+msgstr "Parität"
+
+#: TFUSBASP.LSTOPBITS.CAPTION
+msgid "Stop Bits"
+msgstr "Stoppbits"
+
+#: uintfstrconsts.stravrisptool
+msgid "USB AVR-ISP Tool"
+msgstr "AVR USB Lab Tool"
+
+#: uintfstrconsts.strbaudrate
+msgctxt "uintfstrconsts.strbaudrate"
+msgid "Baudrate"
+msgstr "Baudrate"
+
+#: uintfstrconsts.strbringtobootmode
+msgid "Bring to boot mode"
+msgstr "In Boot Modus bringen"
+
+#: uintfstrconsts.strbringtobootmodehint
+msgid ""
+"Bring selected programmer to bootmode\n"
+"Markierten Programmer in den Bootmode versetzen\n"
+msgstr "Markierten Programmer in den Bootmode versetzen"
+
+#: uintfstrconsts.strcontroller
+msgctxt "uintfstrconsts.strcontroller"
+msgid "Controller"
+msgstr "Controller"
+
+#: uintfstrconsts.strdatabits
+msgid "Databits"
+msgstr "Datenbits"
+
+#: uintfstrconsts.strdebugport
+msgctxt "uintfstrconsts.strdebugport"
+msgid "Debug Port"
+msgstr "Debug Port"
+
+#: uintfstrconsts.strdebugportmodeupdated
+msgid "Debug Port Mode updated ..."
+msgstr "Debug Port Modus upgedated ..."
+
+#: uintfstrconsts.strerrorconnectingtodevice
+msgid "Error connecting to Device"
+msgstr "Fehler beim verbinden zum Gerät"
+
+#: uintfstrconsts.strfirmware
+msgid "Firmware"
+msgstr "Firmware"
+
+#: uintfstrconsts.strfirmwareloadedok
+msgid "Firmware loaded, %d Bytes"
+msgstr "Firmware geladen, %d Bytes"
+
+#: uintfstrconsts.strhexfiletobig
+msgid "Hex file does not fit in Controller"
+msgstr "Hex file passt nicht in den Controller"
+
+#: uintfstrconsts.stri2csendcomplete
+msgid "I2C data sended ..."
+msgstr "I2C Daten gesendet ..."
+
+#: uintfstrconsts.stri2csendfailed
+msgid "I2C send failed (%d) ..."
+msgstr "I2C senden fehlgeschlagen ..."
+
+#: uintfstrconsts.strinfo
+msgid ""
+"www:  http://www.ullihome.de\n"
+"mail: christian@ullihome.de\n"
+"\n"
+"Lizenz:\n"
+"Die Software und ihre Dokumentation wird wie sie ist zur\n"
+"Verfuegung gestellt. Da Fehlfunktionen auch bei ausfuehrlich\n"
+"getesteter Software durch die Vielzahl an verschiedenen\n"
+"Rechnerkonfigurationen niemals ausgeschlossen werden koennen,\n"
+"uebernimmt der Autor keinerlei Haftung fuer jedwede Folgeschaeden,\n"
+"die sich durch direkten oder indirekten Einsatz der Software\n"
+"oder der Dokumentation ergeben. Uneingeschraenkt ausgeschlossen\n"
+"ist vor allem die Haftung fuer Schaeden aus entgangenem Gewinn,\n"
+"Betriebsunterbrechung, Verlust von Informationen und Daten und\n"
+"Schaeden an anderer Software, auch wenn diese dem Autor bekannt\n"
+"sein sollten. Ausschliesslich der Benutzer haftet fuer Folgen der\n"
+"Benutzung dieser Software.\n"
+"\n"
+"erstellt mit Freepascal + Lazarus\n"
+"http://www.freepascal.org, http://lazarus.freepascal.org\n"
+"Iconset von:\n"
+"http://www.famfamfam.com/lab/icons/silk/\n"
+msgstr ""
+"www:  http://www.ullihome.de\n"
+"mail: christian@ullihome.de\n"
+"\n"
+"Lizenz:\n"
+"Die Software und ihre Dokumentation wird wie sie ist zur\n"
+"Verfuegung gestellt. Da Fehlfunktionen auch bei ausfuehrlich\n"
+"getesteter Software durch die Vielzahl an verschiedenen\n"
+"Rechnerkonfigurationen niemals ausgeschlossen werden koennen,\n"
+"uebernimmt der Autor keinerlei Haftung fuer jedwede Folgeschaeden,\n"
+"die sich durch direkten oder indirekten Einsatz der Software\n"
+"oder der Dokumentation ergeben. Uneingeschraenkt ausgeschlossen\n"
+"ist vor allem die Haftung fuer Schaeden aus entgangenem Gewinn,\n"
+"Betriebsunterbrechung, Verlust von Informationen und Daten und\n"
+"Schaeden an anderer Software, auch wenn diese dem Autor bekannt\n"
+"sein sollten. Ausschliesslich der Benutzer haftet fuer Folgen der\n"
+"Benutzung dieser Software.\n"
+"\n"
+"erstellt mit Freepascal + Lazarus\n"
+"http://www.freepascal.org, http://lazarus.freepascal.org\n"
+"Iconset von:\n"
+"http://www.famfamfam.com/lab/icons/silk/\n"
+
+#: uintfstrconsts.strinvalidhexfile
+msgid "Invalid hexfile, check if this is in Intel hex Format"
+msgstr "Ungültiges hexfile, prüfen Sie ob die Datei im Intel hex Format ist."
+
+#: uintfstrconsts.strinvalidsoftwareversion
+msgid "Invalid Software Version"
+msgstr "Ungültige Software Version"
+
+#: uintfstrconsts.strispspeed
+msgid "ISP Speed"
+msgstr "ISP Geschwindigkeit"
+
+#: uintfstrconsts.strispspeedupdated
+msgid "ISP Speed updated ..."
+msgstr "Programmiergeschwindigkeit geändert ..."
+
+#: uintfstrconsts.strnoaccess
+msgid "An USB AVR Lab was found but you havend access to it. Maybe you havend enougth rights."
+msgstr "Ein USB AVR Lab wurde gefunden, aber Sie haben nicht genug Rechte um USB Geräte zu benutzen. Sprechen sie mit Ihrem Systemadministrator."
+
+#: uintfstrconsts.strnohelp
+msgid "No Help avalible"
+msgstr "keine Hilfe verfügbar"
+
+#: uintfstrconsts.stroptions
+msgid "Options"
+msgstr "Optionen"
+
+#: uintfstrconsts.stroptionsupdated
+msgid "Options updated..."
+msgstr "Optionen gespeichert..."
+
+#: uintfstrconsts.strosnotfoundforfirmware
+msgid "This firmware possibly dont support your Operating System or your Operating System dont support this Firmware. Please ensure that you know what you do."
+msgstr "Diese Firmware wird mit Ihrem Betriebsystem nicht zusammenarbeiten können. Bitte prüfen Sie ob Sie diese wirklich programmieren möchten (z.b. weil das USB AVR Lab auf einem anderen computer eingesetzt werden soll)."
+
+#: uintfstrconsts.strpagesize
+msgid "Page Size"
+msgstr "Seiten Grösse"
+
+#: uintfstrconsts.strparity
+msgctxt "uintfstrconsts.strparity"
+msgid "Parity"
+msgstr "Parität"
+
+#: uintfstrconsts.strpleaseusespecialsoftware
+msgid "Please use the Special Software for this Programmer Type"
+msgstr ""
+"Bitte nutzen Sie die spezial Software für diesen programmer Typ\n"
+"oder es ist keine Software nötig.\n"
+
+#: uintfstrconsts.strprogramm
+msgid "Programm"
+msgstr "Programmieren"
+
+#: uintfstrconsts.strprogrammedok
+msgid "Device programmed OK ..."
+msgstr "Gerät programmiert."
+
+#: uintfstrconsts.strprogrammingpage
+msgid "Programming Page %d"
+msgstr "Programmiere Seite %d"
+
+#: uintfstrconsts.strprotocol
+msgid "Protocol"
+msgstr "Protokoll"
+
+#: uintfstrconsts.strrefreshhint
+msgid ""
+"Refresh list\n"
+"Liste aktualisierten\n"
+msgstr "Liste aktualisierten"
+
+#: uintfstrconsts.strsend
+msgid "Send"
+msgstr "Senden"
+
+#: uintfstrconsts.strsoftwareversion
+msgid "Software Version"
+msgstr "Software Version"
+
+#: uintfstrconsts.strstartapplication
+msgid "Start Application"
+msgstr "Applikation starten"
+
+#: uintfstrconsts.strstopbits
+msgid "Stopbits"
+msgstr "Stopbits"
+
+#: uintfstrconsts.strunknowndevice
+msgid "Unknown device"
+msgstr "Unbekanntes Gerät"
+
+#: uintfstrconsts.strwrite
+msgid "Write"
+msgstr "Schreiben"
+
+#~ msgid "Abbrechen"
+#~ msgstr "Abbrechen"
+#~ msgid "OK"
+#~ msgstr "OK"
+#~ msgid "Liste mit Com Ports aktualisieren"
+#~ msgstr "Liste mit Com Ports aktualisieren"
+#~ msgid "Boot Modus Com Port Auswahl"
+#~ msgstr "Gerät in Boot Modus bringen"
+#~ msgid ""
+#~ "Wenn die Liste leer ist, ist es möglich das ihr USB AVR Lab mit einer "
+#~ "Firmware arbeitet die auf einem Virtuellen Com Port basiert. In diesem "
+#~ "fall drücken Sie einfach auf den Stern Button und geben im erscheinenden "
+#~ "Fenster dienummer den Namen des Com ports an."
+#~ msgstr ""
+#~ "Wenn die Liste leer ist, ist es möglich das ihr USB AVR Lab mit einer "
+#~ "Firmware arbeitet die auf einem Virtuellen Com Port basiert. In diesem "
+#~ "fall drücken Sie einfach auf den Stern Button und geben im erscheinenden "
+#~ "Fenster dienummer den Namen des Com ports an."
+

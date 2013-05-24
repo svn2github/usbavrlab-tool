@@ -1,0 +1,358 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tfbitbanging.caption
+msgid "fBitbanging"
+msgstr ""
+
+#: tfbitbanging.cbbit0.caption
+msgid "Bit 0"
+msgstr ""
+
+#: tfbitbanging.cbbit1.caption
+msgid "Bit 1"
+msgstr ""
+
+#: tfbitbanging.cbbit2.caption
+msgid "Bit 2"
+msgstr ""
+
+#: tfbitbanging.cbbit3.caption
+msgid "Bit 3"
+msgstr ""
+
+#: tfbitbanging.cbbit4.caption
+msgid "Bit 4"
+msgstr ""
+
+#: tfbitbanging.cbbit5.caption
+msgid "Bit 5"
+msgstr ""
+
+#: tfbitbanging.cbbit6.caption
+msgid "Bit 6"
+msgstr ""
+
+#: tfbitbanging.sbrefresh.hint
+msgid "Zustände auslesen"
+msgstr ""
+
+#: tfbootloader.bprogram.caption
+msgid "Programmieren"
+msgstr ""
+
+#: tfbootloader.bprogram.hint
+msgid "Programmierung starten"
+msgstr ""
+
+#: tfbootloader.bstart.caption
+msgid "Applikation starten"
+msgstr ""
+
+#: tfbootloader.bstart.hint
+msgid "Firmware starten"
+msgstr ""
+
+#: tfbootloader.bwritestk500params.caption
+msgid "Speichern"
+msgstr ""
+
+#: tfbootloader.esoftwareversion.text
+msgid "2.0a"
+msgstr ""
+
+#: tfbootloader.fbootloader.caption
+msgid "fBootloader"
+msgstr ""
+
+#: tfbootloader.lcontroller.caption
+msgctxt "TFBOOTLOADER.LCONTROLLER.CAPTION"
+msgid "Controller"
+msgstr ""
+
+#: tfbootloader.lfirmware.caption
+msgid "Firmwares"
+msgstr ""
+
+#: tfbootloader.lispspeed.caption
+msgctxt "tfbootloader.lispspeed.caption"
+msgid "ISP Geschwindigkeit"
+msgstr ""
+
+#: tfbootloader.lpagesize.caption
+msgid "Seitengrösse"
+msgstr ""
+
+#: tfbootloader.lstk500softwareversion.caption
+msgid "STK 500 Firmware Version"
+msgstr ""
+
+#: tfbootloader.luserfirmware.caption
+msgid "Benutzerfirmware"
+msgstr ""
+
+#: tfbootloader.progressbar1.hint
+msgid "Fortschritt"
+msgstr ""
+
+#: tfbootloader.rgprotocol.caption
+msgid "Protokoll"
+msgstr ""
+
+#: tfbootloader.tsload.caption
+msgid "Flash"
+msgstr ""
+
+#: tfbootloader.tsoptions.caption
+msgid "Optionen"
+msgstr ""
+
+#: tfi2clogger.bi2csend.caption
+msgid "Senden"
+msgstr ""
+
+#: tfi2clogger.caption
+msgid "fI2CLogger"
+msgstr ""
+
+#: tfmain.acinfo.caption
+msgid "Info"
+msgstr ""
+
+#: tfmain.bsendtobootmode.caption
+msgid "In Bootmodus versetzen"
+msgstr ""
+
+#: tfmain.caption
+msgid "USB AVR Lab Tool"
+msgstr ""
+
+#: tfmain.lmessage.caption
+msgid "lMessage"
+msgstr ""
+
+#: tfmain.milanguage.caption
+msgid "Sprache"
+msgstr ""
+
+#: tfusbasp.caption
+msgid "fUSBAsp"
+msgstr ""
+
+#: tfusbasp.cbbaudrate.text
+msgid "9600"
+msgstr ""
+
+#: tfusbasp.cbparity.text
+msgid "N"
+msgstr ""
+
+#: tfusbasp.lbaudrate.caption
+msgctxt "TFUSBASP.LBAUDRATE.CAPTION"
+msgid "Baudrate"
+msgstr ""
+
+#: tfusbasp.ldatabits.caption
+msgid "Daten Bits"
+msgstr ""
+
+#: tfusbasp.ldebugport.caption
+msgctxt "TFUSBASP.LDEBUGPORT.CAPTION"
+msgid "Debug Port"
+msgstr ""
+
+#: tfusbasp.lispspeed1.caption
+msgctxt "TFUSBASP.LISPSPEED1.CAPTION"
+msgid "ISP Geschwindigkeit"
+msgstr ""
+
+#: tfusbasp.lparity.caption
+msgctxt "TFUSBASP.LPARITY.CAPTION"
+msgid "Parity"
+msgstr ""
+
+#: tfusbasp.lstopbits.caption
+msgid "Stop Bits"
+msgstr ""
+
+#: uintfstrconsts.stravrisptool
+msgid "USB AVR-ISP Tool"
+msgstr ""
+
+#: uintfstrconsts.strbaudrate
+msgctxt "uintfstrconsts.strbaudrate"
+msgid "Baudrate"
+msgstr ""
+
+#: uintfstrconsts.strbringtobootmode
+msgid "Bring to boot mode"
+msgstr ""
+
+#: uintfstrconsts.strbringtobootmodehint
+msgid ""
+"Bring selected programmer to bootmode\n"
+"Markierten Programmer in den Bootmode versetzen\n"
+msgstr ""
+
+#: uintfstrconsts.strcontroller
+msgctxt "uintfstrconsts.strcontroller"
+msgid "Controller"
+msgstr ""
+
+#: uintfstrconsts.strdatabits
+msgid "Databits"
+msgstr ""
+
+#: uintfstrconsts.strdebugport
+msgctxt "uintfstrconsts.strdebugport"
+msgid "Debug Port"
+msgstr ""
+
+#: uintfstrconsts.strdebugportmodeupdated
+msgid "Debug Port Mode updated ..."
+msgstr ""
+
+#: uintfstrconsts.strerrorconnectingtodevice
+msgid "Error connecting to Device"
+msgstr ""
+
+#: uintfstrconsts.strfirmware
+msgid "Firmware"
+msgstr ""
+
+#: uintfstrconsts.strfirmwareloadedok
+msgid "Firmware loaded, %d Bytes"
+msgstr ""
+
+#: uintfstrconsts.strhexfiletobig
+msgid "Hex file does not fit in Controller"
+msgstr ""
+
+#: uintfstrconsts.stri2csendcomplete
+msgid "I2C data sended ..."
+msgstr ""
+
+#: uintfstrconsts.stri2csendfailed
+msgid "I2C send failed (%d) ..."
+msgstr ""
+
+#: uintfstrconsts.strinfo
+msgid ""
+"www:  http://www.ullihome.de\n"
+"mail: christian@ullihome.de\n"
+"\n"
+"Lizenz:\n"
+"Die Software und ihre Dokumentation wird wie sie ist zur\n"
+"Verfuegung gestellt. Da Fehlfunktionen auch bei ausfuehrlich\n"
+"getesteter Software durch die Vielzahl an verschiedenen\n"
+"Rechnerkonfigurationen niemals ausgeschlossen werden koennen,\n"
+"uebernimmt der Autor keinerlei Haftung fuer jedwede Folgeschaeden,\n"
+"die sich durch direkten oder indirekten Einsatz der Software\n"
+"oder der Dokumentation ergeben. Uneingeschraenkt ausgeschlossen\n"
+"ist vor allem die Haftung fuer Schaeden aus entgangenem Gewinn,\n"
+"Betriebsunterbrechung, Verlust von Informationen und Daten und\n"
+"Schaeden an anderer Software, auch wenn diese dem Autor bekannt\n"
+"sein sollten. Ausschliesslich der Benutzer haftet fuer Folgen der\n"
+"Benutzung dieser Software.\n"
+"\n"
+"erstellt mit Freepascal + Lazarus\n"
+"http://www.freepascal.org, http://lazarus.freepascal.org\n"
+"Iconset von:\n"
+"http://www.famfamfam.com/lab/icons/silk/\n"
+msgstr ""
+
+#: uintfstrconsts.strinvalidhexfile
+msgid "Invalid hexfile, check if this is in Intel hex Format"
+msgstr ""
+
+#: uintfstrconsts.strinvalidsoftwareversion
+msgid "Invalid Software Version"
+msgstr ""
+
+#: uintfstrconsts.strispspeed
+msgid "ISP Speed"
+msgstr ""
+
+#: uintfstrconsts.strispspeedupdated
+msgid "ISP Speed updated ..."
+msgstr ""
+
+#: uintfstrconsts.strnoaccess
+msgid "An USB AVR Lab was found but you havend access to it. Maybe you havend enougth rights."
+msgstr ""
+
+#: uintfstrconsts.strnohelp
+msgid "No Help avalible"
+msgstr ""
+
+#: uintfstrconsts.stroptions
+msgid "Options"
+msgstr ""
+
+#: uintfstrconsts.stroptionsupdated
+msgid "Options updated..."
+msgstr ""
+
+#: uintfstrconsts.strosnotfoundforfirmware
+msgid "This firmware possibly dont support your Operating System or your Operating System dont support this Firmware. Please ensure that you know what you do."
+msgstr ""
+
+#: uintfstrconsts.strpagesize
+msgid "Page Size"
+msgstr ""
+
+#: uintfstrconsts.strparity
+msgctxt "uintfstrconsts.strparity"
+msgid "Parity"
+msgstr ""
+
+#: uintfstrconsts.strpleaseusespecialsoftware
+msgid "Please use the Special Software for this Programmer Type"
+msgstr ""
+
+#: uintfstrconsts.strprogramm
+msgid "Programm"
+msgstr ""
+
+#: uintfstrconsts.strprogrammedok
+msgid "Device programmed OK ..."
+msgstr ""
+
+#: uintfstrconsts.strprogrammingpage
+msgid "Programming Page %d"
+msgstr ""
+
+#: uintfstrconsts.strprotocol
+msgid "Protocol"
+msgstr ""
+
+#: uintfstrconsts.strrefreshhint
+msgid ""
+"Refresh list\n"
+"Liste aktualisierten\n"
+msgstr ""
+
+#: uintfstrconsts.strsend
+msgid "Send"
+msgstr ""
+
+#: uintfstrconsts.strsoftwareversion
+msgid "Software Version"
+msgstr ""
+
+#: uintfstrconsts.strstartapplication
+msgid "Start Application"
+msgstr ""
+
+#: uintfstrconsts.strstopbits
+msgid "Stopbits"
+msgstr ""
+
+#: uintfstrconsts.strunknowndevice
+msgid "Unknown device"
+msgstr ""
+
+#: uintfstrconsts.strwrite
+msgid "Write"
+msgstr ""
+

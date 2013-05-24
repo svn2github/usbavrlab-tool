@@ -1,0 +1,42 @@
+object fToolHelp: TfToolHelp
+  Left = 478
+  Height = 300
+  Top = 218
+  Width = 400
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'fToolHelp'
+  ClientHeight = 300
+  ClientWidth = 400
+  LCLVersion = '0.9.29'
+  object Panel1: TPanel
+    Left = 8
+    Height = 284
+    Top = 8
+    Width = 384
+    Align = alClient
+    BorderSpacing.Around = 8
+    BevelOuter = bvNone
+    Caption = 'Panel1'
+    ClientHeight = 284
+    ClientWidth = 384
+    TabOrder = 0
+    object HelpViewer: TIpHtmlPanel
+      Left = 0
+      Height = 284
+      Top = 0
+      Width = 384
+      Align = alClient
+      FixedTypeface = 'Courier New'
+      DefaultTypeFace = 'default'
+      DefaultFontSize = 12
+      FlagErrors = False
+      PrintSettings.MarginLeft = 0.5
+      PrintSettings.MarginTop = 0.5
+      PrintSettings.MarginRight = 0.5
+      PrintSettings.MarginBottom = 0.5
+      TabOrder = 0
+      OnHotClick = HelpViewerHotClick
+    end
+  end
+end
