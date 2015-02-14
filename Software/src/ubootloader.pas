@@ -61,7 +61,7 @@ var
 
 implementation
 
-uses uMain,uIntfStrConsts,Utils,uToolHelp,uLibUsbDevice,htmlconvert,uInfo;
+uses uMain,uIntfStrConsts,Utils,uToolHelp,uLibUsbDevice,uInfo;
 
 { TfBootloader }
 
@@ -440,4 +440,4 @@ initialization
   {$I ubootloader.lrs}
 
 end.
-
+

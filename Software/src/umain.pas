@@ -79,7 +79,7 @@ var
 implementation
 
 uses uBootloader,uBitbanging,uUSBasp,uI2CLogger,uToolHelp
-     ,uInfo,uLibUSBDevice,uUSBSerialDevice,htmlconvert;
+     ,uInfo,uLibUSBDevice,uUSBSerialDevice;
 
 { TfMain }
 
@@ -445,4 +445,4 @@ initialization
   {$I umain.lrs}
 
 end.
-
+
