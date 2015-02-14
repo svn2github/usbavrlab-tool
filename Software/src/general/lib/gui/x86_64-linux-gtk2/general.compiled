@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1390412254"/>
+  <Params Value=" -MObjFPC -Scgi -O1 -g -gl -vewnhi -Fi/home/olli/usbavrlab-tool/Software/src/general/src -Fi/home/olli/usbavrlab-tool/Software/src/general/src_vis -Fu/home/olli/usbavrlab-tool/Software/src/general/src -Fu/home/olli/usbavrlab-tool/Software/src/general/src_vis -Fu/usr/lib/lazarus/1.0.10/components/turbopower_ipro/units/x86_64-linux/gtk2 -Fu/usr/lib/lazarus/1.0.10/components/printers/lib/x86_64-linux/gtk2 -Fu/home/olli/usbavrlab-tool/Software/src/general/lib/nogui/x86_64-linux-gtk2 -Fu/usr/lib/lazarus/1.0.10/lcl/units/x86_64-linux/gtk2 -Fu/usr/lib/lazarus/1.0.10/lcl/units/x86_64-linux -Fu/usr/lib/lazarus/1.0.10/components/lazutils/lib/x86_64-linux -Fu/home/olli/synapse/source/lib/lib/x86_64-linux -Fu/usr/lib/lazarus/1.0.10/packager/units/x86_64-linux -Fu/home/olli/usbavrlab-tool/Software/src/general/ -FU/home/olli/usbavrlab-tool/Software/src/general/lib/gui/x86_64-linux-gtk2/ -l -dLCL -dLCLgtk2 general.pas"/>
+</CONFIG>
