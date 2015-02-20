@@ -5,6 +5,7 @@ if [ "x$Widgetset" = "x" ]; then
   Widgetset=gtk2
 fi
 Arch=$(fpc -v | grep 'Compiler version' | sed 's/.*for \([^ ]\+\)$/\1/')
+DebianArch=`dpkg --print-architecture`
 #'
 Year=`date +%y`
 Month=`date +%m`
@@ -18,12 +19,19 @@ if [ x$BuildDir = x/ ]; then
   echo "ERROR: invalid build directory"
   exit
 fi
-rm -rf $BuildDir
+rm -rf $BuildDir/*
+echo "building general"
+lazbuild ../../src/general/general.lpk
+echo "building hexencode"
+lazbuild ../../src/hexencode.lpr
+echo "building usbavrlab"
+lazbuild ../../src/usbavrlabtool.lpr
+
 echo "creating control file..."
 mkdir -p $BuildDir/DEBIAN
 cat debian/control.control | \
   sed -e "s/VERSION/$Version/g" \
-      -e "s/ARCH/$Arch/g" \
+      -e "s/ARCH/$DebianArch/g" \
   > $BuildDir/DEBIAN/control
 echo "copyright and changelog files..."
 mkdir -p $BuildDir/usr/share/doc/$Program
@@ -49,7 +57,7 @@ cp general/$Program.starter $BuildDir/usr/share/$Program/
 chmod 755 $BuildDir/usr/share/$Program/$Program.starter
 #cp general/usbavrlabavrprogrammer.starter $BuildDir/usr/share/$Program/
 #chmod 755 $BuildDir/usr/share/$Program/usbavrlabavrprogrammer.starter
-cp general/46-usbavrlab.rules $BuildDir/etc/udev/rules.d
+cp general/15-usbavrlab-udev.rules $BuildDir/etc/udev/rules.d
 ln -s /usr/share/$Program/$Program.starter $BuildDir/usr/bin/$Program
 #ln -s /usr/share/$Program/usbavrlabavrprogrammer.starter $BuildDir/usr/bin/usbavrlabavrprogrammer
 ln -s /usr/share/$Program/usbavrlabavrprogrammer.starter $BuildDir/usr/bin/avrprogrammer
@@ -61,6 +69,6 @@ cp ../../languages/*.txt $BuildDir/usr/share/$Program/languages
 #cp ../../progdata/*.xml $BuildDir/usr/share/$Program/progdata
 echo "building package..."
 dpkg-deb --build $BuildDir
-cp $TmpDir/software_build.deb output/${Program}_${Version}_${Arch}-$Widgetset.deb
+cp $TmpDir/software_build.deb ../../output/${Program}_${Version}_${Arch}-$Widgetset.deb
 echo "cleaning up..."
 rm -r $BuildDir

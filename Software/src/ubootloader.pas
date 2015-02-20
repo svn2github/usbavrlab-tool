@@ -61,7 +61,7 @@ var
 
 implementation
 
-uses uMain,uIntfStrConsts,Utils,uToolHelp,uLibUsbDevice,htmlconvert,uInfo;
+uses uMain,uIntfStrConsts,Utils,uToolHelp,uLibUsbDevice,uInfo;
 
 { TfBootloader }
 
@@ -236,7 +236,7 @@ begin
     begin
       sl := TStringList.Create;
       sl.LoadFromFile(fToolHelp.Filename);
-      sl.Text:=HTMLtoTXT(sl.text);
+      sl.Text := StripHTML(sl.text);
       while (sl.Count > 0) and (uppercase(trim(sl[0])) <> 'BETRIEBSYSTEME') do
         sl.Delete(0);
       if (sl.Count > 0) and (uppercase(trim(sl[0])) = 'BETRIEBSYSTEME') then
