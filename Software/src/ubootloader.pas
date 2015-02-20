@@ -236,7 +236,7 @@ begin
     begin
       sl := TStringList.Create;
       sl.LoadFromFile(fToolHelp.Filename);
-      sl.Text:=(sl.text);
+      sl.Text := StripHTML(sl.text);
       while (sl.Count > 0) and (uppercase(trim(sl[0])) <> 'BETRIEBSYSTEME') do
         sl.Delete(0);
       if (sl.Count > 0) and (uppercase(trim(sl[0])) = 'BETRIEBSYSTEME') then
@@ -440,4 +440,4 @@ initialization
   {$I ubootloader.lrs}
 
 end.
-
+
